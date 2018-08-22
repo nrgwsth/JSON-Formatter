@@ -133,7 +133,7 @@
 
     JSONPrettifier.prototype.emptyOutputContainer = function(){
       while(this.output.children.length){
-        this.removeChild(this.output.firstChild)
+        this.output.removeChild(this.output.firstChild)
       }
     }
 
